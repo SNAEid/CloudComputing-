@@ -1,5 +1,9 @@
 # CloudComputing-
 
+2- 
+LunixStatus.sh
+./script2.sh 
+
 
 3- chmode +x LunixStatus 
     to make Script executable 
@@ -11,6 +15,9 @@
     
     from anyware LunixStatus
     
-4- 
+4- crontab -e 
 
+0 0 * * * /Downlads/script2.sh
+add lcmand end of the crontab file to run the script daily at midnight:
 
+script should run every day at midnight
