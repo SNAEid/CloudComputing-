@@ -9,7 +9,7 @@ LunixStatus.sh
     to make Script executable 
    
     dd the directory containing the script to the PATH environment variable 
-    export PATH=$PATH:/path/to/directory/containing/script
+    export PATH=$PATH:/Downlads/assignment2/script
     
     source ~/.bashrc
     
@@ -17,7 +17,7 @@ LunixStatus.sh
     
 4- crontab -e 
 
-0 0 * * * /Downlads/script2.sh
+0 0 * * * /Downlads/assignment2/script2.sh
 add lcmand end of the crontab file to run the script daily at midnight:
 
 script should run every day at midnight
